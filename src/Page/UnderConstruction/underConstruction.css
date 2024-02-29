@@ -1,0 +1,17 @@
+/* p {
+
+    background: linear-gradient(135.72deg, #09e5e5 -12.91%, #12e6dc -0.28%, #2beac5 20.76%, #55f1a0 48.11%, #8efa6d 79.68%, #a8ff57 92.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+} */
+
+
+h1{
+    background-image: linear-gradient(90deg, #09E5E5, #12E6DC, #2BEAC5, #55F1A0, #8EFA6D, #A8FF57);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+

@@ -1,0 +1,37 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+    /* .container {
+        @apply  macBook:h-[703px]  macBookPro:h-[703px] large:h-[872px]  mac:h-[641px] tablet:h-[769px] mobile:h-[326px] mini:h-[286px]  w-full bg-[#070707]
+    } */
+    .container {
+        @apply  h-full w-full large:h-[911px] tablet:h-[1152px] mobile:h-[617px]  bg-[#070707]
+    }
+
+    .heaedingLogo {
+        @apply macBook:w-[234px] macBook:h-[44.85px] macBook:mt-[50.89px] macBookPro:w-[234px] macBookPro:h-[44.85px] macBookPro:mt-[50.89px] large:w-[356px] large:h-[68.24px] large:mt-[50.02px] mac:w-[234px] mac:h-[44.85px] mac:mt-[50.89px] tablet:mt-[49.95px] tablet:w-[296px] tablet:h-[56.74px]  mobile:mt-[20.51px] mobile:w-[112px] mobile:h-[21.47px] mini:w-[112px] mini:h-[21.47px]  mini:mt-[20.51px];  
+    }
+
+
+
+}
+
+@layer base {
+    @font-face {
+        font-family: rotaBlack;
+        src: url('./fonts/Rota/Rota-Black.otf');
+    }
+    @font-face {
+        font-family: novaMedium;
+        src: url('./fonts/ethos-nova/EthosNova-Medium.otf');
+    }
+    @font-face {
+        font-family: novaBlack;
+        src: url('./fonts/ethos-nova/EthosNova-Heavy.otf');
+    }
+}
